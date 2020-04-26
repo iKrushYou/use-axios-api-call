@@ -31,7 +31,7 @@ function Example() {
 }
 ```
 
-See `/examples` folder for more detailed implmementation
+See `/example` folder for more detailed implmementation
 
 ## Description
 
