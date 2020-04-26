@@ -33,6 +33,8 @@ function Example() {
 
 See `/example` folder for more detailed implmementation
 
+https://ikrushyou.github.io/use-axios-api-call/
+
 ## Description
 
 `use-axios-api-call` introduces a more declarative way of making GET API calls through axios.
