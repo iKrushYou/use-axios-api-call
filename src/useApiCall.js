@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import uuidv4 from 'uuid4'
 import axios from 'axios'
+import PropTypes from 'prop-types'
 
 const noop = () => {}
 const noTransform = (data) => data
@@ -83,6 +84,19 @@ const useApiCall = (
   }, [delayed])
 
   return { data, fetching, cancel, fetch, fetched }
+}
+
+useApiCall.propTypes = {
+  apiCall: PropTypes.func.isRequired,
+  dependencies: PropTypes.array.isRequired,
+  options: PropTypes.shape({
+    transform: PropTypes.func,
+    onCatch: PropTypes.func,
+    onError: PropTypes.func,
+    onFinally: PropTypes.func,
+    debounce: PropTypes.number,
+    initialValue: PropTypes.any
+  })
 }
 
 export default useApiCall
