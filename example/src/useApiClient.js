@@ -1,4 +1,4 @@
-import {axiosRequest, urlBuilderWithBase} from 'use-api-call'
+import {axiosRequest, urlBuilderWithBase} from 'use-axios-api-call'
 
 const BASE_URL = "https://pokeapi.co/api/v2";
 

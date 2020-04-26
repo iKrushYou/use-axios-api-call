@@ -1,6 +1,6 @@
 {
-  "name": "use-api-call-example",
-  "homepage": "https://ikrushyou.github.io/use-api-call",
+  "name": "use-axios-api-call-example",
+  "homepage": "https://ikrushyou.github.io/use-axios-api-call",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,7 @@
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
     "react-scripts": "link:../node_modules/react-scripts",
-    "use-api-call": "link:.."
+    "use-axios-api-call": "link:.."
   },
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",

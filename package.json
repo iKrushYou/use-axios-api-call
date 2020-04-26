@@ -1,10 +1,10 @@
 {
-  "name": "use-api-call",
+  "name": "use-axios-api-call",
   "version": "1.0.0",
   "description": "Declarative API Call Hooks",
   "author": "ikrushyou",
   "license": "MIT",
-  "repository": "ikrushyou/use-api-call",
+  "repository": "ikrushyou/use-axios-api-call",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

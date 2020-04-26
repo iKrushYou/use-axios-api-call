@@ -1,6 +1,6 @@
 {
-  "short_name": "use-api-call",
-  "name": "use-api-call",
+  "short_name": "use-axios-api-call",
+  "name": "use-axios-api-call",
   "icons": [
     {
       "src": "favicon.ico",
