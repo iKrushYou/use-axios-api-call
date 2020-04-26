@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/use-axios-api-call/static/css/main.6faa9ad1.chunk.css",
+    "main.js": "/use-axios-api-call/static/js/main.574d3f78.chunk.js",
+    "main.js.map": "/use-axios-api-call/static/js/main.574d3f78.chunk.js.map",
+    "runtime-main.js": "/use-axios-api-call/static/js/runtime-main.1acc4910.js",
+    "runtime-main.js.map": "/use-axios-api-call/static/js/runtime-main.1acc4910.js.map",
+    "static/js/2.85950daf.chunk.js": "/use-axios-api-call/static/js/2.85950daf.chunk.js",
+    "static/js/2.85950daf.chunk.js.map": "/use-axios-api-call/static/js/2.85950daf.chunk.js.map",
+    "index.html": "/use-axios-api-call/index.html",
+    "precache-manifest.4d84ea3dd01d045e93289576e529d052.js": "/use-axios-api-call/precache-manifest.4d84ea3dd01d045e93289576e529d052.js",
+    "service-worker.js": "/use-axios-api-call/service-worker.js",
+    "static/css/main.6faa9ad1.chunk.css.map": "/use-axios-api-call/static/css/main.6faa9ad1.chunk.css.map",
+    "static/js/2.85950daf.chunk.js.LICENSE.txt": "/use-axios-api-call/static/js/2.85950daf.chunk.js.LICENSE.txt",
+    "static/js/main.574d3f78.chunk.js.LICENSE.txt": "/use-axios-api-call/static/js/main.574d3f78.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1acc4910.js",
+    "static/js/2.85950daf.chunk.js",
+    "static/css/main.6faa9ad1.chunk.css",
+    "static/js/main.574d3f78.chunk.js"
+  ]
+}
