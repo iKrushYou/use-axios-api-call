@@ -1,3 +1,7 @@
+html, body {
+  background-color: aliceblue;
+}
+
 body {
   margin: 0;
   padding: 0;
