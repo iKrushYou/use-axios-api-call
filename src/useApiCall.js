@@ -18,7 +18,7 @@ const useApiCall = (
     initialValue = null
   } = {}
 ) => {
-  const [apiCallFn, setApiCallFn] = useState(apiCall)
+  const [apiCallFn, setApiCallFn] = useState(() => apiCall)
 
   useEffect(() => {
     setApiCallFn(() => apiCall)
@@ -27,7 +27,7 @@ const useApiCall = (
   const uuid = useRef(uuidv4())
   const [data, setData] = useState(initialValue)
   const [fetching, setFetching] = useState(false)
-  const [fetched, setFetched] = useState(false);
+  const [fetched, setFetched] = useState(false)
   const [cancel, setCancel] = useState(() => noop)
   const [delayed, setDelayedUuid] = useState({})
 
