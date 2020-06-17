@@ -83,7 +83,9 @@ const useApiCall = (
     }
   }, [delayed])
 
-  return { data, fetching, cancel, fetch, fetched }
+  const loading = !fetched || fetching
+
+  return { data, fetching, cancel, fetch, fetched, loading }
 }
 
 useApiCall.propTypes = {
