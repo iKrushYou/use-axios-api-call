@@ -2,7 +2,7 @@ import axiosRequest from './axiosRequest'
 import makeQueryParams from './makeQueryParams'
 import useApiCall from './useApiCall'
 
-const urlBuilder = ({ baseUrl, path, params }) => {
+const urlBuilder = ({ baseUrl = '', path, params }) => {
   return `${baseUrl}${path}${params ? makeQueryParams(params) : ''}`
 }
 

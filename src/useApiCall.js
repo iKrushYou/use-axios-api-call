@@ -31,7 +31,7 @@ const useApiCall = (
   const [cancel, setCancel] = useState(() => noop)
   const [delayed, setDelayedUuid] = useState({})
 
-  const fetch = () => {
+  const fetch = ({ reload = true } = {}) => {
     // cancel old request if exists
     if (typeof cancel === 'function') {
       cancel()
@@ -44,7 +44,7 @@ const useApiCall = (
     // if no response, exit
     if (!apiCallRes) return
 
-    setFetching(true)
+    if (reload) setFetching(true)
     const { request, cancel: cancelReq } = apiCallRes
 
     request
@@ -59,7 +59,7 @@ const useApiCall = (
         else onCatch(e)
       })
       .finally(() => {
-        setFetching(false)
+        if (reload) setFetching(false)
         onFinally()
       })
 
